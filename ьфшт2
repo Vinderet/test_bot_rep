@@ -1,0 +1,6 @@
+from main import abc
+
+
+print("ДУМАЮЮЮЮюююю....")
+
+print(abc) 
