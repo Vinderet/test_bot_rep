@@ -1,9 +1,10 @@
 from aiogram import Bot, Dispatcher
 from aiogram.filters import Command
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
+from config import BOT_TOKEN
 
 
-BOT_TOKEN = '7779817849:AAH5QanWHAeXp8OkAtfxdaTOotSS6rEmg8s'
+BOT_TOKEN = BOT_TOKEN
 
 
 bot = Bot(token=BOT_TOKEN)
